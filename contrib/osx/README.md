@@ -58,7 +58,7 @@ These tools do not work on macOS, so you need a separate Linux machine (or VM).
 
 Copy the Electrum-LTC.app directory over and install the dependencies, e.g.:
 
-    apt install libcap-dev cmake make gcc faketime
+    apt install libcap-dev cmake make gcc faketime libbz2-dev
     
 Then you can just invoke `package.sh` with the path to the app:
 
